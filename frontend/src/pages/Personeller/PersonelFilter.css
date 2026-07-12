@@ -1,0 +1,27 @@
+/* src/pages/Personeller/PersonelFilter.css */
+
+.personel-filter{
+
+display:flex;
+
+gap:15px;
+
+}
+
+.personel-filter select{
+
+height:48px;
+
+padding:0 18px;
+
+border:1px solid #dbe3ec;
+
+border-radius:10px;
+
+background:#fff;
+
+outline:none;
+
+min-width:180px;
+
+}

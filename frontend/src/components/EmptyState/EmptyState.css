@@ -1,0 +1,31 @@
+/* src/components/EmptyState/EmptyState.css */
+
+.empty-state{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.empty-state .icon{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+.empty-state h2{
+
+margin-bottom:10px;
+
+color:#0f172a;
+
+}
+
+.empty-state p{
+
+color:#64748b;
+
+}

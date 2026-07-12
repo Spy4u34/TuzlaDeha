@@ -1,0 +1,39 @@
+/* src/components/Loading/Loading.css */
+
+.loading{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:80px;
+
+}
+
+.spinner{
+
+width:45px;
+
+height:45px;
+
+border:5px solid #dbe3ec;
+
+border-top:5px solid #2563eb;
+
+border-radius:50%;
+
+animation:spin .8s linear infinite;
+
+}
+
+@keyframes spin{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}

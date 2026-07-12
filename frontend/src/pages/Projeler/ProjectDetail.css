@@ -1,0 +1,99 @@
+.project-modal{
+position:fixed;
+inset:0;
+background:rgba(15,23,42,.45);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:999;
+backdrop-filter:blur(4px);
+}
+
+.project-modal-card{
+width:560px;
+background:#fff;
+padding:30px;
+border-radius:18px;
+display:flex;
+flex-direction:column;
+gap:18px;
+box-shadow:0 25px 60px rgba(0,0,0,.18);
+}
+
+.project-modal-card h2{
+margin:0;
+font-size:26px;
+color:#0f172a;
+margin-bottom:8px;
+}
+
+.form-group{
+display:flex;
+flex-direction:column;
+gap:8px;
+}
+
+.form-group label{
+font-size:14px;
+font-weight:600;
+color:#334155;
+}
+
+.project-modal-card input,
+.project-modal-card select,
+.project-modal-card textarea{
+padding:14px;
+border:1px solid #dbe3ec;
+border-radius:10px;
+font-size:15px;
+outline:none;
+transition:.2s;
+}
+
+.project-modal-card input:focus,
+.project-modal-card select:focus,
+.project-modal-card textarea:focus{
+border-color:#2563eb;
+box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
+
+.project-modal-card textarea{
+height:120px;
+resize:none;
+}
+
+.modal-buttons{
+display:flex;
+justify-content:flex-end;
+gap:12px;
+margin-top:10px;
+}
+
+.save-btn{
+height:46px;
+padding:0 24px;
+background:#2563eb;
+color:#fff;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:600;
+}
+
+.save-btn:hover{
+background:#1d4ed8;
+}
+
+.cancel-btn{
+height:46px;
+padding:0 24px;
+background:#e2e8f0;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:600;
+}
+
+.cancel-btn:hover{
+background:#cbd5e1;
+}

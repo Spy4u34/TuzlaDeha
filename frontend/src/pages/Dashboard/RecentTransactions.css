@@ -1,0 +1,43 @@
+/* src/pages/Dashboard/RecentTransactions.css */
+
+.recent-box{
+
+margin-top:35px;
+
+background:#fff;
+
+border-radius:18px;
+
+padding:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.recent-box table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+.recent-box th{
+
+background:#f8fafc;
+
+padding:16px;
+
+text-align:left;
+
+}
+
+.recent-box td{
+
+padding:16px;
+
+border-top:1px solid #edf2f7;
+
+}

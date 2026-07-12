@@ -1,0 +1,31 @@
+/* src/components/Card/InfoCard.css */
+
+.info-card{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.info-card span{
+
+display:block;
+
+color:#64748b;
+
+margin-bottom:15px;
+
+}
+
+.info-card h2{
+
+font-size:30px;
+
+color:#0f172a;
+
+}

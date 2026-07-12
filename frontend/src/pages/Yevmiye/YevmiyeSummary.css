@@ -1,0 +1,43 @@
+/* src/pages/Yevmiye/YevmiyeSummary.css */
+
+.summary-box{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:20px;
+
+margin-top:25px;
+
+}
+
+.summary-box div{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.summary-box span{
+
+display:block;
+
+margin-bottom:12px;
+
+color:#64748b;
+
+}
+
+.summary-box strong{
+
+font-size:28px;
+
+color:#0f172a;
+
+}

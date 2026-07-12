@@ -1,0 +1,31 @@
+/* src/components/Table/DataTable.css */
+
+.table-wrapper{
+    width:100%;
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.table-wrapper table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-wrapper th{
+    background:#f8fafc;
+    padding:18px;
+    text-align:left;
+    color:#334155;
+    font-weight:600;
+}
+
+.table-wrapper td{
+    padding:18px;
+    border-top:1px solid #edf2f7;
+}
+
+.table-wrapper tbody tr:hover{
+    background:#f8fafc;
+}

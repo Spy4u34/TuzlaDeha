@@ -1,0 +1,25 @@
+/* src/components/Input/SearchInput.css */
+
+.search-input{
+
+width:320px;
+
+height:48px;
+
+border:1px solid #dbe3ec;
+
+border-radius:10px;
+
+padding:0 18px;
+
+outline:none;
+
+transition:.25s;
+
+}
+
+.search-input:focus{
+
+border-color:#2563eb;
+
+}

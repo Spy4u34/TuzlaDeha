@@ -1,0 +1,53 @@
+/* src/pages/Puantaj/PuantajOzet.css */
+
+.puantaj-ozet{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:20px;
+
+margin-bottom:30px;
+
+}
+
+.item{
+
+background:#fff;
+
+padding:22px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.item span{
+
+display:block;
+
+margin-bottom:12px;
+
+color:#64748b;
+
+}
+
+.item strong{
+
+font-size:30px;
+
+color:#0f172a;
+
+}
+
+@media(max-width:1100px){
+
+.puantaj-ozet{
+
+grid-template-columns:1fr;
+
+}
+
+}

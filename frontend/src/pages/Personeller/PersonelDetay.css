@@ -1,0 +1,45 @@
+/* src/pages/Personeller/PersonelDetay.css */
+
+.detail-card{
+
+margin-top:30px;
+
+background:#fff;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.detail-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:25px;
+
+margin-top:25px;
+
+}
+
+.detail-grid span{
+
+display:block;
+
+margin-bottom:8px;
+
+color:#64748b;
+
+}
+
+.detail-grid strong{
+
+font-size:18px;
+
+color:#0f172a;
+
+}

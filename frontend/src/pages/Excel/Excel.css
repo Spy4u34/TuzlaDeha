@@ -1,0 +1,43 @@
+/* src/pages/Excel/Excel.css */
+
+.excel-page{
+    padding:35px;
+}
+
+.upload-box{
+    margin-top:35px;
+    background:#fff;
+    border-radius:20px;
+    padding:60px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.upload-icon{
+    font-size:60px;
+}
+
+.upload-box h2{
+    margin-top:20px;
+}
+
+.upload-box p{
+    margin:15px 0 35px;
+    color:#64748b;
+}
+
+.upload-box input{
+    display:block;
+    margin:0 auto 25px;
+}
+
+.upload-box button{
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    padding:14px 28px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+}
