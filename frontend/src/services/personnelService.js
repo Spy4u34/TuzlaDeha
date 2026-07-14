@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/personeller";
+const API = "http://tuzladeha.onrender.com/personeller";
 
 export const getPersonnel = async () => {
 

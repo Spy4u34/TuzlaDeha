@@ -32,7 +32,7 @@ function Dashboard() {
     try {
 
       const response = await fetch(
-  "http://localhost:5000/dashboard"
+  "http://tuzladeha.onrender.com/dashboard"
 );
 
       const data = await response.json();
