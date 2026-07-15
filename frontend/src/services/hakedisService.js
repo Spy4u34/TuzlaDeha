@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const PERSONEL_API = "http://tuzladeha.onrender.com/personeller";
-const HAKEDIS_API = "http://tuzladeha.onrender.com/hakedisler";
+const PERSONEL_API = "https://tuzladeha.onrender.com/personeller";
+const HAKEDIS_API = "https://tuzladeha.onrender.com/hakedisler";
 
 export const getPersoneller = async () => {
 

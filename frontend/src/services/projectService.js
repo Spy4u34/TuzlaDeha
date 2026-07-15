@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://tuzladeha.onrender.com/projeler";
+const API = "https://tuzladeha.onrender.com/projeler";
 
 export const getProjects = async () => {
 
